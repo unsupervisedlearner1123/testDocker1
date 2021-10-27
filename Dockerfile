@@ -12,6 +12,6 @@ COPY main.py .
 
 COPY count.txt .
 
-COPY -r /templates/. .
+COPY ./templates /app/templates/
 
 CMD ["python", "./main.py"]
